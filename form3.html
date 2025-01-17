@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 3</title>
+    <style>
+        html {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: x-large;
+            background-color: #cfe2ff;
+        }
+        fieldset {
+            width: 50%;
+            height: 850px;
+            border-radius: 10px;
+            border: solid;
+            background-color: #ffff;
+            
+
+        }
+        textarea {
+            border-radius: 5px;
+            border: solid;
+        }
+        .maindiv {
+            display: flex;
+            justify-content: center;
+        }
+        select {
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        input {
+            width: 50%;
+            height: 25px;
+            border: solid;
+            border-radius: 5px;
+        }
+        select {
+            border: solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <fieldset>
+        <h2>My Feedback Form</h2>
+        <ul>
+            <li><label for="">Name </label><input type="text"></li>
+            <li><label for="">Email </label><input type="text"></li>
+            <li><label for="">Password </label><input type="email"></li>
+        </ul>
+        <ul>
+            <li>Please check all the emotions that apply to you: </li>
+            <ul>
+                <li><label for="">Angry</label><input type="checkbox"></li>
+                <li><label for="">Sad</label><input type="checkbox"></li>
+                <li><label for="">Happy</label><input type="checkbox"></li>
+                <li><label for="">Ambivalent</label><input type="checkbox"></li>
+            </ul>
+            <li>How satisfied were you with other service?</li>
+            <ul>
+                <li><label for="">Very Satisfied</label><input type="checkbox"></li>
+                <li><label for="">Satisfied</label><input type="checkbox"></li>
+                <li><label for="">Didn't care</label><input type="checkbox"></li>
+                <li><label for="">Dissatisfied</label><input type="checkbox"></li>
+                <li><label for="">Very Dissatisfied</label><input type="checkbox"></li>
+                <br>
+            </ul>
+            <li>Further Comments <br><textarea name="" id="" cols="30"" rows="3"></textarea></li>
+            <li>Bio Photo <input type="text"></label><br><input style="width: 300px;" type="file"></li>
+            <li>Location Visited</li>
+            <select name="" id="">
+                <option selected value="">Select Location</option>
+                <option value="">Asia</option>
+                <option value="">Europe</option>
+                <option value="">Australia</option>
+                <option value="">Other</option>
+            </select>
+        </ul>
+        </fieldset>
+    </div>
+    
+</body>
+</html>

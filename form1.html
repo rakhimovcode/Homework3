@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+    <style>
+        html {
+            background-color: #ffff;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+        }
+        #heading2 {
+            text-align: center;
+        }
+        #special{
+            border-radius: 4px;
+            width: 40%;
+            border: white;
+            height: 25px;
+          
+        }
+        fieldset {
+            border-color: black;
+            width: 50%;
+            height: 820px;
+            background-color: #ccff66;
+            border-radius: 5px;
+            
+        }
+        legend {
+            font-size: xx-large;
+        }
+        select {
+            border-radius: 4px;
+            width: 40%;
+            height: 35px;
+            border: white;
+        }
+        textarea {
+            border-radius: 5px;
+        }
+        button {
+            border-radius: 5px;
+            height: 45px;
+            width: 280px;
+            font-size: large;
+            background-color: #fde442   ;
+        }
+    </style>
+</head>
+<body>
+    
+    <center>
+        
+        <fieldset>
+           
+        
+                <h2 id="heading2">Personal Details</h2>
+                <form action="#">
+                    <label for="">Name </label><input id="special" type="text"><br><br>
+                    <label  for="">Password </label><input id="special" type="text"><br><br>
+                    <label  for="">E-mail ID </label><input id="special" type="email"><br><br>
+              
+                <label for="">Gender: </label><input name="gender" type="radio"><label for="">Male</label> <input name="gender" type="radio"><label for="">Female</label><br><br>
+                <label  for="">Contact </label><input id="special" type="text"><br><br> 
+                <h3 id="heading2">Education Qualification</h3>
+                <label for="">Degree</label>
+                <select name="" id="">
+                    <option value="" selected>Select Group</option>
+                    <option value="">Bachelors</option>
+                    <option value="">Masters</option>
+                    <option value="">PHD</option>
+                </select> <br><br>
+                 <label for="">Engineering</label>
+                <select name="" id="">
+                    <option value="" selected>Select Group</option>
+                    <option value="">Junior</option>
+                    <option value="">Middle</option>
+                    <option value="">Senior</option>
+                </select>
+                <br><br>
+                <label for="">Hobbies: </label> <input type="checkbox"><label for="">Playing Chess</label>
+                <input type="checkbox"><label for="">Reading Books</label>
+                <h3 id="heading2">Address</h3>
+                <textarea name="" id="" cols="40" rows="5"></textarea><br><br>
+                <label  for="">Attach Your Resume</label> <input type="file"><br><br>
+                <button type="submit">Submit</button>
+
+                </form>
+        </fieldset>
+          </center>
+    
+
+    
+</body>
+</html>
